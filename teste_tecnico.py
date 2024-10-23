@@ -106,9 +106,9 @@ while escolha != parar:
                 "Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas\n"
                 " idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?\n\n")
 
-        print(" Ligar um interruptor 1 por bastante tempo, a ponto da lampada aquecer, em seguida, desliga-lo e ligar o segundo interruptor,\n",
-            "assim, indo até as salas em duas idas, verificar a que está acesa e qual lampada está mais quente.\n",
-            "A que estiver mais quente, foi o primeiro interruptor e o que não foi acesso é o da sala faltante.")
+        print(" Ligar o interruptor 1 por um bom tempo até que dê tempo da lampada aquecer. Em seguida, desligar o 1 e ligar o interruptor 2.\n",
+              "Indo até as salas, a lampada que estiver acesa pertence ao interruptor 2 e a lampada que estiver apagada e fria, pertence ao interruptor 3.\n"
+              " Consequentemente a ques estiver apagada e quente, pertence ao interruptor 1")
 
         pularLinha()
 
